@@ -1,0 +1,3 @@
+instalar
+
+npm install --save-dev codebandits/react-app-rewire-css-modules sass-loader node-sassstar

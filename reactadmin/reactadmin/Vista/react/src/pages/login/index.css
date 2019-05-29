@@ -1,0 +1,173 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg {
+    /* The image used */
+   /* background-image: url("/reactadmin/reactadmin/Vista/react/public/Ebolc/fondo.jpg"); background-image: url("/reactadmin/reactadmin/Vista/react/public/Ebolc/fondo.jpg"); background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");*/
+   
+   background-image: url("https://i.imgur.com/7fNtvNx.jpg");
+    /* Add the blur effect */
+    filter: blur(1px);
+    -webkit-filter: blur(4px);
+    
+    /* Full height */
+    height: 100vh;
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+
+  }
+  
+  /* Position text in the middle of the page/image */
+  .container {
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    margin: 20px auto ;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    
+    padding: 20px;
+    background-color: rgba(255,255,255); 
+    box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.3), 0px -4px 0px 0px rgba(104, 166, 195);
+
+  }
+
+  .contai {
+    background-color: rgba(255,255,255); 
+    box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.3), 0px -4px 0px 0px rgba(104, 166, 195);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    max-width: 460px;
+    padding: 20px;
+
+  }
+  
+  .contai input{
+    border: none;
+    margin: 6px;
+    background: #d8d8d8;
+    height: 60px;
+    width: 439px;
+    font-size: 12px;
+    position: relative;
+    box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.08), 0px 2px 0px 0px rgba(0,0,0,0.06);
+    transition: all 500ms ease;
+  }
+  .row .left{
+    float: left;
+    width: 50%; height: 100%;
+  }
+   .row .right{
+    float: right;
+    width: 48%; height: 100%;
+    margin: 4px 0px 0px 0px;
+  }
+  .contai .row .right button {
+    border: none;
+    background: rgba(104, 166, 195);
+    color: #f2f2f2;
+    padding: 20px;
+    font-size: 12px;
+    position: relative;
+    margin: 0px 0px 0px 92px;
+    min-width: 200px;
+    width: 49.3%;
+    transition: all 500ms ease;
+    }
+    .contai .row .right button:hover {
+    background: rgba(0,0,0,0);
+    color: rgba(104, 166, 195);
+    box-shadow: inset 0 0 0 2px rgba(104, 166, 195);
+    }
+
+    .contai .row .left a{
+      margin: 20px 0px 0px 0px;
+    }
+
+    .wrapp{
+      width: 99%;
+    }
+    /* .row  button {
+      border: none;
+      background: rgba(104, 166, 195);
+      color: #f2f2f2;
+      padding: 20px;
+      font-size: 12px;
+      position: relative;
+      min-width: 150px;
+      margin: 4px -475px 0px 474px;
+      width: 49.3%;
+      transition: all 500ms ease;
+    } */
+    .wrapp  button {
+      border: none;
+      color: #f2f2f2;
+      padding: 20px;
+      font-size: 12px;
+      position: relative;
+      min-width: 150px;
+      margin: 4px -654px 0px 387px;
+      width: 49.3%;
+      transition: all 500ms ease;
+    }
+    .wrapp button:hover {
+      background: rgba(0,0,0,0);
+      color: rgba(104, 166, 195);
+      box-shadow: inset 0 0 0 2px rgba(104, 166, 195);
+    }
+    .wrapp2  button {
+      border: none;
+      
+      color: #f2f2f2;
+      padding: 20px;
+      font-size: 12px;
+      position: relative;
+      min-width: 150px;
+      margin: 90px auto 0px;
+      width: 49.3%;
+    }
+    .wrapp2 button:hover {
+      background: rgba(0,0,0,0);
+      color: rgba(104, 166, 195);
+      box-shadow: inset 0 0 0 2px rgba(104, 166, 195);
+    }
+    td button {
+      border: none;
+      background: rgba(104, 166, 195);
+      color: #918181;
+      padding: 10px;
+      font-size: 12px;
+      display: table;
+      position: relative;
+      min-width: 100px;
+      margin: 2px 0px 0px 0px;
+      transition: all 500ms ease;
+    }
+
+    .ty{
+      margin: 4px -115px 0px 80px;
+    }
+    
+
+  .form-control {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+
+
+}
